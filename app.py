@@ -14,10 +14,10 @@ import pickle
 
 
 # Import models
-count_vectorizer = pickle.load(open("cv_vectorizer.pkl", "rb"))
+count_vectorizer = pickle.load(open("count_vectorizer.pkl", "rb"))
 lda_model = pickle.load(open("lda_model.pkl", "rb"))
 stop_words2 = pickle.load(open("stopwords.pkl","rb"))
-term_frequency = pickle.load(open("tf_vectorizer.pkl","rb"))
+term_frequency = pickle.load(open("term_frequency_vectorizer.pkl","rb"))
 model = pickle.load(open("GNB.pkl","rb"))
 punctuation_word = string.punctuation
 lemmatizer = WordNetLemmatizer()
